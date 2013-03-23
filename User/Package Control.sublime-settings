@@ -1,0 +1,27 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"All Autocomplete",
+		"BeautifyRuby",
+		"Clipboard History",
+		"DetectSyntax",
+		"Emmet",
+		"FileSystem Autocompletion",
+		"Gist",
+		"Haml",
+		"LiveReload",
+		"Markdown Preview",
+		"Package Control",
+		"Prefixr",
+		"RailsCasts Colour Scheme",
+		"SCSS",
+		"SideBarEnhancements",
+		"SmartMarkdown",
+		"SublimeCodeIntel",
+		"Tabright",
+		"Theme - Soda"
+	]
+}
