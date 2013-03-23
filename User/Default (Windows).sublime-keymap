@@ -1,2 +1,18 @@
 [
+{ "keys": ["ctrl+r"], "command": "build" },
+
+// Vim-like navigation
+{ "keys": ["ctrl+h"], "command": "move", "args": {"by": "characters", "forward": false} },
+{ "keys": ["ctrl+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+{ "keys": ["ctrl+k"], "command": "move", "args": {"by": "lines", "forward": false} },
+{ "keys": ["ctrl+j"], "command": "move", "args": {"by": "lines", "forward": true} },
+
+{ "keys": ["ctrl+alt+l"], "command": "reindent" , "args": {"single_line": false}},
+{ "keys": ["ctrl+shift+s"], "command": "save_all" },
+{ "keys": ["ctrl+g"], "command": "find_all_under" },
+{ "keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "Packages/Default/Add Line.sublime-macro"} },
+{ "keys": ["ctrl+alt+n"], "command": "advanced_new_file"},
+{ "keys": ["ctrl+alt+o"], "command": "side_bar_open_in_browser", "args":{"paths":[], "type":"testing"}},
+{ "keys": ["ctrl+shift+l"], "command": "expand_selection", "args": {"to": "line"} },
+{ "keys": ["ctrl+f1"], "command": "toggle_side_bar" }
 ]
